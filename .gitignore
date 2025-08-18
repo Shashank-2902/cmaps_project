@@ -1,5 +1,24 @@
-"__pycache__/" 
-"data/raw/" 
-"*.ipynb_checkpoints" 
-"*.pkl" 
-"*.joblib" 
+# Python cache & temporary files
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+.venv/
+env/
+
+# Jupyter checkpoints
+*.ipynb_checkpoints/
+
+# Data files (don’t push raw data!)
+data/raw/
+*.csv
+*.txt
+
+# Model artifacts
+*.pkl
+*.joblib
+
+# OS-specific files
+.DS_Store
+Thumbs.db
